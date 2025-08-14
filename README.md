@@ -23,14 +23,14 @@ Live demo: `https://<your-cloudfront-domain>/notes/index.html`
 Backend API: API Gateway (HTTP API) → Lambda (Python) → DynamoDB (on-demand), deployed with AWS SAM.
 
 How it works
-- Frontend is just `index.html` (vanilla JS + fetch).
-- Requests include `x-user-id` header (defaults to `demo-user` if not set).
-- CORS is enabled on the API via SAM `CorsConfiguration`.
+- Frontend is just 'index.html' (vanilla JS + fetch).
+- Requests include 'x-user-id' header (defaults to 'demo-user' if not set).
+- CORS is enabled on the API via SAM 'CorsConfiguration'.
 
 Endpoints used
-- `POST /notes` — create
-- `GET /notes` — list for user
-- `GET /notes/{id}` — read
-- `PUT /notes/{id}` — update
-- `DELETE /notes/{id}` — delete
+- POST /notes — create
+- GET /notes — list for user
+- GET /notes/{id} — read
+- PUT /notes/{id} — update
+- DELETE /notes/{id} — delete
 
