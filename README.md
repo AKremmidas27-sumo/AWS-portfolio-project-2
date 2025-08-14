@@ -5,7 +5,7 @@
 A tiny, production-style Notes API you can deploy in minutes. It’s fully serverless, free-tier friendly, and easy to tear down. Great for showcasing API design, IaC, and AWS skills.
 
 ## Features
-- Endpoints: `POST /notes`, `GET /notes/{id}`, `PUT /notes/{id}`, `DELETE /notes/{id}`, `GET /notes` (list by user)
+- Endpoints: 'POST /notes', 'GET /notes/{id}\', 'PUT /notes/{id}', 'DELETE /notes/{id}', 'GET /notes' (list by user)
 - Simple “auth” for demo: pass a header `x-user-id` (defaults to `demo-user`)
 - IaC via **AWS SAM** (`template.yaml`)
 - Logging in CloudWatch; On-Demand DynamoDB (no capacity planning)
