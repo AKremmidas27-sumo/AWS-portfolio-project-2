@@ -12,7 +12,7 @@ A tiny, production-style Notes API you can deploy in minutes. It’s fully serve
 
 ---
 
-## 🔧 Architecture
+Architecture
 
 ## Project 2 — Serverless Notes UI (S3 + CloudFront)
 
