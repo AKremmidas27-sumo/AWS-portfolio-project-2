@@ -1,11 +1,11 @@
-# AWS-portfolio-project-2
+AWS-portfolio-project-2
 
-# Serverless Notes API 
+Serverless Notes API 
 (AWS SAM · API Gateway · Lambda · DynamoDB)
 
 A tiny, production-style Notes API you can deploy in minutes. It’s fully serverless, free-tier friendly, and easy to tear down. Great for showcasing API design, IaC, and AWS skills.
 
-## Features
+Features
 - Endpoints: 'POST /notes', 'GET /notes/{id}\', 'PUT /notes/{id}', 'DELETE /notes/{id}', 'GET /notes' (list by user)
 - Simple “auth” for demo: pass a header 'x-user-id' (defaults to 'demo-use')
 - IaC via AWS SAM (template.yaml)
@@ -17,7 +17,7 @@ Architecture
 
 Project 2 — Serverless Notes UI (S3 + CloudFront)
 
-A tiny one-file web app that calls the Serverless Notes API from Project 2.
+One-File Web Application that calls the Serverless Notes API from Project 2.
 
 Live demo: 'https://<your-cloudfront-domain>/notes/index.html'  
 Backend API: API Gateway (HTTP API) → Lambda (Python) → DynamoDB (on-demand), deployed with AWS SAM.
