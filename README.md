@@ -1,5 +1,4 @@
 # AWS-portfolio-project-2
-[README project 2 notes.txt](https://github.com/user-attachments/files/21762115/README.project.2.notes.txt)
 # Serverless Notes API (AWS SAM · API Gateway · Lambda · DynamoDB)
 
 A tiny, production-style Notes API you can deploy in minutes. It’s fully serverless, free-tier friendly, and easy to tear down. Great for showcasing API design, IaC, and AWS skills.
@@ -14,19 +13,19 @@ A tiny, production-style Notes API you can deploy in minutes. It’s fully serve
 
 Architecture
 
-## Project 2 — Serverless Notes UI (S3 + CloudFront)
+Project 2 — Serverless Notes UI (S3 + CloudFront)
 
 A tiny one-file web app that calls the Serverless Notes API from Project 2.
 
-**Live demo:** `https://<your-cloudfront-domain>/notes/index.html`  
-**Backend API:** API Gateway (HTTP API) → Lambda (Python) → DynamoDB (on-demand), deployed with AWS SAM.
+Live demo: `https://<your-cloudfront-domain>/notes/index.html`  
+Backend API: API Gateway (HTTP API) → Lambda (Python) → DynamoDB (on-demand), deployed with AWS SAM.
 
-### How it works
+How it works
 - Frontend is just `index.html` (vanilla JS + fetch).
 - Requests include `x-user-id` header (defaults to `demo-user` if not set).
 - CORS is enabled on the API via SAM `CorsConfiguration`.
 
-### Endpoints used
+Endpoints used
 - `POST /notes` — create
 - `GET /notes` — list for user
 - `GET /notes/{id}` — read
