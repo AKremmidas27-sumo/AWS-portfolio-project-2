@@ -1,5 +1,7 @@
 # AWS-portfolio-project-2
-# Serverless Notes API (AWS SAM · API Gateway · Lambda · DynamoDB)
+
+# Serverless Notes API 
+(AWS SAM · API Gateway · Lambda · DynamoDB)
 
 A tiny, production-style Notes API you can deploy in minutes. It’s fully serverless, free-tier friendly, and easy to tear down. Great for showcasing API design, IaC, and AWS skills.
 
