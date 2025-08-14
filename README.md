@@ -19,7 +19,7 @@ Project 2 — Serverless Notes UI (S3 + CloudFront)
 
 A tiny one-file web app that calls the Serverless Notes API from Project 2.
 
-Live demo: `https://<your-cloudfront-domain>/notes/index.html`  
+Live demo: 'https://<your-cloudfront-domain>/notes/index.html'  
 Backend API: API Gateway (HTTP API) → Lambda (Python) → DynamoDB (on-demand), deployed with AWS SAM.
 
 How it works
