@@ -32,3 +32,6 @@ GET /notes/{id} — read
 PUT /notes/{id} — update
 DELETE /notes/{id} — delete
 
+Author
+Andrew Kremmidas – AWS Solutions Architect Associate 
+
